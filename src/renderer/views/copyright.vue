@@ -18,17 +18,11 @@
         <small>以下为NGA论坛ID</small>
         <h4>主催</h4>
         <p>
-          <span>黑羽仙洛</span>
-          <el-divider direction="vertical" />
-          <span>ChibaNils</span>
-          <el-divider direction="vertical" />
-          <span>风之低吟</span>
+          <span>TODO</span>
         </p>
         <h4>程序</h4>
         <p>
-          <span>风之低吟</span>
-          <el-divider direction="vertical" />
-          <span>ForeverDdB</span>
+          <span>TODO</span>
         </p>
         <h4>录入协助</h4>
         <small>按字母/笔画顺序，排名不分先后</small>
@@ -49,9 +43,7 @@
         </p>
         <h4>复核协助</h4>
         <p>
-          <span>我就是雷gay的化身</span>
-          <el-divider direction="vertical" />
-          <span>nameabcd</span>
+          <span>TODO</span>
         </p>
         <el-tooltip content="双王子？你为什么不问问黑暗剑呢？">
           <h2>今日，我等攻略了大书库！</h2>
@@ -60,8 +52,8 @@
       <el-divider />
       <el-row>
         <h2>其他译者/作者</h2>
-        <small>NGA论坛ID，按字母/笔画顺序，排名不分先后</small>
-        <el-tooltip content="找不到您的名字？请联系@风之低吟">
+        <small>TODO</small>
+        <el-tooltip content="TODO">
           <p>
             <span v-for="(creator, i) in creators" :key="i">
               <el-divider v-if="i % 8" direction="vertical" />
