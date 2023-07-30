@@ -2,8 +2,8 @@ module.exports = {
   pluginOptions: {
     electronBuilder: {
       builderOptions: {
-        appId: 'cn.umafan.lib',
-        productName: '赛马娘同人集中楼大书库',
+        appId: 'cc.kivo.lib',
+        productName: 'BA大书库',
         mac: {
           icon: 'icons/icon.icns',
           artifactName: 'umalib-mac-v${version}.${ext}',

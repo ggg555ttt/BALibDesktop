@@ -71,31 +71,6 @@ const configStore = new (require('electron-store'))();
 logger.debug(`use config path: ${configStore.path}`);
 
 function chooseTitles() {
-  let rand = Math.random();
-  rand -= 0.04;
-  if (rand < 0) {
-    return titles.mejiro;
-  }
-  rand -= 0.04;
-  if (rand < 0) {
-    return titles.agnes;
-  }
-  rand -= 0.04;
-  if (rand < 0) {
-    return titles.satono;
-  }
-  rand -= 0.04;
-  if (rand < 0) {
-    return titles.traincen;
-  }
-  rand -= 0.04;
-  if (rand < 0) {
-    return titles.oguri;
-  }
-  rand -= 0.01;
-  if (rand < 0) {
-    return titles.cemetery;
-  }
   return titles.origin;
 }
 
@@ -290,7 +265,7 @@ async function createWindow() {
     minWidth: 720,
     minHeight: 480,
     show: false,
-    title: '赛马娘同人集中楼大书库',
+    title: 'BA大书库',
     webPreferences: {
       contextIsolation: false,
       // Use pluginOptions.nodeIntegration, leave this alone
